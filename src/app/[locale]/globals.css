@@ -136,3 +136,21 @@
 }
 
 
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+
+
+.hero
+{
+  background: url('../../../public/images/fond.jpg');
+  background-position: center;
+  background-size: cover;
+}

@@ -1,3 +1,4 @@
+import { Separator } from "@/components/ui/separator";
 import { Link } from "@/i18n/routing";
 import { useTranslations } from "next-intl";
 import Image from "next/image";
@@ -7,71 +8,38 @@ const Footer = () => {
   const t = useTranslations("Navbar");
 
   return (
-    <div className="footer w-full min-h-[85vh] px-5 py-10 md:px-10">
-      <div className="w-[250px] h-[85px] relative">
-        <Image src="/footerLogo.png" alt="" className="object-cover" fill />
-      </div>
-      <div className="mt-10 grid gap-10 sm:grid-cols-2 md:grid-cols-3 md:grid-cols-4">
-        <div className="flex flex-col text-white space-y-2">
-          <p className="font-bold">{t("institut")}</p>
-          <Link className="font-light" href="/pages/rector-freeze">
-            {t("rektor-murojati")}
-          </Link>
-          <Link className="font-light" href="/pages/institut-of-history">
-            {t("institut-tarixi")}
-          </Link>
-          <Link className="font-light" href="/pages/scientific-council">
-            {t("ilmiy-kengash")}
-          </Link>
-          <Link className="font-light" href="/pages/administration-institute">
-            {t("institut-mamuriyati")}
-          </Link>
-          <Link className="font-light" href="/pages/trip-the-institute">
-            {t("institutga-sayohat")}
-          </Link>
-          <Link className="font-light" href="/pages/institute-map">
-            {t("institut-xaritasi")}
-          </Link>
-          <Link className="font-light" href="/pages/faq">
-            {t("faq")}
-          </Link>
+    <div className="bg-[#f2f5fa]">
+      <div className="h-[50%] flex items-start py-20 justify-between w-[80%] mx-auto">
+        <div>
+          <div className="w-[240px] h-[60px] relative">
+            <Link href="/">
+              <Image fill src="/flogo2.svg" alt="" />
+            </Link>
+          </div>
+          <br />
+          <h1>Lorem ipsum dolor sit amet consectetur, adipisdddicing elit.</h1>
         </div>
-        <div className="flex flex-col text-white space-y-2">
-          <p className="font-bold">{t("biz-haqimizda")}</p>
-          <Link className="font-light" href="/partner-universities">
-            {t("hamkor-universitetlar")}
-          </Link>
-          <Link className="font-light" href="/pages/core-values">
-            {t("asosiy-qadriyatlar")}
-          </Link>
-          <Link className="font-light" href="/pages/basic-documents">
-            {t("asosiy-meyoriy-hujjatlar")}
-          </Link>
-        </div>
-        <div className="flex flex-col text-white space-y-2">
-          <p className="font-bold">{t("xalqaro-faoliyat")}</p>
-          <Link className="font-light" href="/pages/international-cooperation">
-            {t("xalqaro-hamkorlik")}
-          </Link>
-          <Link className="font-light" href="/pages/international-students">
-            {t("xalqaro-talabalar")}
-          </Link>
-          <Link className="font-light" href="/pages/exchange">
-            {t("almashinuv-dasturi")}
-          </Link>
-        </div>
-        <div className="flex flex-col text-white space-y-2">
-          <Link className="font-light" href="/bachelors-degree">
-            {t("bakalavr-grandi")}
-          </Link>
-          <Link className="font-light" href="https://impulsjournal.uz/">
-            {t("ilmiy-jurnal")}
-          </Link>
-          <Link className="font-light" href="/pages/student-union">
-            {t("student-union")}
-          </Link>
+        <div className="flex gap-10 text-[#013ca6] font-light">
+          <div className="flex flex-col gap-2">
+            <Link href={"/"}>Ko'p beriladigan savollar</Link>
+            <Link href={"/"}>Jamg'arma aloqalari</Link>
+          </div>
+          <div className="flex flex-col gap-2">
+            <Link href={"/"}>Fond haqida</Link>
+            <Link href={"/"}>Yangiliklar</Link>
+            <Link href={"/"}>Loyihalar</Link>
+          </div>
+          <div className="flex flex-col gap-2">
+            <Link href={"/"}>info@impulsmi.uz</Link>
+            <Link href={"/"}>+998 50-510-50-15</Link>
+          </div>
         </div>
       </div>
+        <Separator className="h-[2px] w-[80%] mx-auto bg-[#013ca6] rounded-full" />
+        <div className="w-[80%] mx-auto flex items-center justify-between py-3">
+          <div>@ 2023 ByteSpace. All rights reserved.</div>
+          <div>Cookies Settings</div>
+        </div>
     </div>
   );
 };

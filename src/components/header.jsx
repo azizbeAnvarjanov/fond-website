@@ -1,6 +1,4 @@
 import { useTranslations } from "next-intl";
-import NavDropdowns from "../app/(customComponents)/NavDropdowns";
-import { Facebook, Instagram, Youtube } from "lucide-react";
 import LocalSwitcher from "./local-switcher";
 import Image from "next/image";
 import { Link } from "@/i18n/routing";
@@ -9,51 +7,52 @@ export default function Header() {
   const t = useTranslations("Navbar");
 
   return (
-    <header className="bg-white border-b shadow-md fixed w-full h-[18vh] z-50">
-      <div className="h-[50%] bg-[--brand-blue] px-5 flex items-center justify-between">
-        <div className="flex items-center gap-5">
-          <Link className="text-white flex gap-2" href="tel:+998505105015">
-            <span className="lg:flex md:hidden items-center hidden">{t("aloqa-markazi")} </span> +998 50 510 50 15
+    <header className="border-b shadow-md fixed w-full h-[18vh] z-50">
+      <div className="h-[45%] bg-[#013ca6] text-white px-3 flex items-center justify-between">
+        <div className="flex items-center gap-10">
+          <Link
+            href={`/fond-haqida`}
+            className="lg:flex md:hidden items-center hidden"
+          >
+            Ko'p beriladigan savollar
           </Link>
           <Link
-            className="text-white lg:flex md:hidden items-center hidden"
-            href="https://www.facebook.com/impuls.medical.institute/"
+            href={`/fond-haqida`}
+            className="lg:flex md:hidden items-center hidden"
           >
-            <Facebook />
-          </Link>
-          <Link
-            className="text-white lg:flex md:hidden items-center hidden"
-            href="https://www.youtube.com/@impulsmedicalinstitute"
-          >
-            <Youtube />
-          </Link>
-          <Link
-            className="text-white lg:flex md:hidden items-center hidden"
-            href="https://www.instagram.com/impuls_mi/"
-          >
-            <Instagram />
+            Jamg'arma aloqalari
           </Link>
         </div>
-        <div>
+        <div className="flex items-center gap-10">
+          <Link href="/">info@impulsmi.uz</Link>
+          <Link href="/">+998 50-510-50-15</Link>
           <LocalSwitcher />
         </div>
       </div>
-      <nav className="flex p-5 items-center justify-between h-[50%]">
-        <Link href="/" className="flex gap-2">
-          <Image
-            src="/logo.png"
-            className="object-contain"
-            width={40}
-            height={40}
-            alt=""
-          />
-          <div>
-            <h1 className="font-bold">{t("impuls")}</h1>
-            <h1 className="font-bold">{t("tibbiyot-instituti")}</h1>
-          </div>
+      <div className="h-[55%] w-full bg-white flex items-center justify-between px-3">
+        <Link href="/" className="w-[240px] h-[60px] relative">
+          <Image fill src="/flogo2.svg" alt="" />
         </Link>
-        <NavDropdowns locc="uz"/>
-      </nav>
+        <div className="flex items-center gap-6 justify-center h-full">
+          <Link href="/fond-haqida" className="">
+            Fond haqida
+          </Link>
+          <Link href="/yangiliklar" className="">
+            Yangiliklar
+          </Link>
+          <Link href="/loyihalar" className="">
+            Loyihalar
+          </Link>
+        </div>
+        <div>
+          <Link
+            href="/donate"
+            className="w-[240px] h-[60px] relative rounded-full bg-[#013ca6] text-white py-2 px-4"
+          >
+            Xayriya qilmoqchiman
+          </Link>
+        </div>
+      </div>
     </header>
   );
 }

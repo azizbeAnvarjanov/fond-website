@@ -27,7 +27,7 @@ export default function RootLayout({
         <div>
           <Toaster position="top-center" reverseOrder={false} />
           <Header />
-          <div className='pt-[17vh]'>{children}</div>
+          <div className='pt-[18vh]'>{children}</div>
           <Footer />
         </div>
       </body>
