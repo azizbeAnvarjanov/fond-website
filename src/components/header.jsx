@@ -14,13 +14,13 @@ export default function Header() {
             href={`/fond-haqida`}
             className="lg:flex md:hidden items-center hidden"
           >
-            Ko'p beriladigan savollar
+            Kop beriladigan savollar
           </Link>
           <Link
             href={`/fond-haqida`}
             className="lg:flex md:hidden items-center hidden"
           >
-            Jamg'arma aloqalari
+            Jamgarma aloqalari
           </Link>
         </div>
         <div className="flex items-center gap-10">

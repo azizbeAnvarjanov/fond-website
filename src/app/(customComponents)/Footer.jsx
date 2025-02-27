@@ -21,8 +21,8 @@ const Footer = () => {
         </div>
         <div className="flex gap-10 text-[#013ca6] font-light">
           <div className="flex flex-col gap-2">
-            <Link href={"/"}>Ko'p beriladigan savollar</Link>
-            <Link href={"/"}>Jamg'arma aloqalari</Link>
+            <Link href={"/"}>Kop beriladigan savollar</Link>
+            <Link href={"/"}>Jamgarma aloqalari</Link>
           </div>
           <div className="flex flex-col gap-2">
             <Link href={"/"}>Fond haqida</Link>
