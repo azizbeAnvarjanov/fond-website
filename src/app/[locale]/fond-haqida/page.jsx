@@ -66,7 +66,7 @@ const FondHaqida = () => {
                 href=""
                 className="bg-[#013ca6] text-white py-2 px-4 rounded-lg"
               >
-                Faylni ko'rish
+                Faylni korish
               </Link>
             </div>
             <div className="w-[20%]">
