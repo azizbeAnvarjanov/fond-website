@@ -18,7 +18,7 @@ const Loyihalar = () => {
           <div className=" overflow-hidden">
             <nav className="flex flex-col">
               <div
-                className={`justify-start gap-3 p-4 text-left w-full transition-colors shadow-none text-wrap cursor-pointer ${
+                className={`justify-start gap-3 p-4 text-left w-full transition-colors shadow-none text-wrap cursor-pointer border ${
                   activeTab === "1"
                     ? "bg-[#013ca6] text-white"
                     : "hover:bg-muted"
@@ -28,7 +28,7 @@ const Loyihalar = () => {
                 1. Ijtimoiy grantlar (16%)
               </div>
               <div
-                className={`justify-start gap-3 p-4 text-left w-full transition-colors shadow-none text-wrap cursor-pointer ${
+                className={`justify-start gap-3 p-4 text-left w-full transition-colors shadow-none text-wrap cursor-pointer border ${
                   activeTab === "2"
                     ? "bg-[#013ca6] text-white"
                     : "hover:bg-muted"
@@ -38,7 +38,7 @@ const Loyihalar = () => {
                 2. Akademik grantlar (50%)
               </div>
               <div
-                className={`justify-start gap-3 p-4 text-left w-full transition-colors shadow-none text-wrap cursor-pointer ${
+                className={`justify-start gap-3 p-4 text-left w-full transition-colors shadow-none text-wrap cursor-pointer border ${
                   activeTab === "3"
                     ? "bg-[#013ca6] text-white"
                     : "hover:bg-muted"
@@ -49,7 +49,7 @@ const Loyihalar = () => {
                 dasturlar (16%)
               </div>
               <div
-                className={`justify-start gap-3 p-4 text-left w-full transition-colors shadow-none text-wrap cursor-pointer ${
+                className={`justify-start gap-3 p-4 text-left w-full transition-colors shadow-none text-wrap cursor-pointer border ${
                   activeTab === "4"
                     ? "bg-[#013ca6] text-white"
                     : "hover:bg-muted"
@@ -60,7 +60,7 @@ const Loyihalar = () => {
                 (5%)
               </div>
               <div
-                className={`justify-start gap-3 p-4 text-left w-full transition-colors shadow-none text-wrap cursor-pointer ${
+                className={`justify-start gap-3 p-4 text-left w-full transition-colors shadow-none text-wrap cursor-pointer border ${
                   activeTab === "5"
                     ? "bg-[#013ca6] text-white"
                     : "hover:bg-muted"
@@ -70,7 +70,7 @@ const Loyihalar = () => {
                 5. Qo‘shimcha stipendiya (5%)
               </div>
               <div
-                className={`justify-start gap-3 p-4 text-left w-full transition-colors shadow-none text-wrap cursor-pointer ${
+                className={`justify-start gap-3 p-4 text-left w-full transition-colors shadow-none text-wrap cursor-pointer border ${
                   activeTab === "6"
                     ? "bg-[#013ca6] text-white"
                     : "hover:bg-muted"

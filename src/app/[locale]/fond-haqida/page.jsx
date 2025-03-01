@@ -3,6 +3,8 @@ import Link from "next/link";
 import React from "react";
 
 import Tabs from "@/app/[locale]/fond-haqida/Tabs";
+import { File, FileText } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const FondHaqida = () => {
   return (
@@ -19,8 +21,8 @@ const FondHaqida = () => {
             sohasida ilmiy tadqiqotlarni qollab-quvvatlash, ijtimoiy ximoyaga
             muhtoj oilalar, nogiron shaxslar, bokuvchisini yoqotgan, yetim va
             chin yetim talabalarga kontrakt tolovlarini taminlash, iqtidorli
-            talabalar ortasida turli xil grantlar tashkil etish hamda xududiy
-            va Respublika boskichlarida bilim saloxiyatini oshirish maqsadida
+            talabalar ortasida turli xil grantlar tashkil etish hamda xududiy va
+            Respublika boskichlarida bilim saloxiyatini oshirish maqsadida
             tashkil etiladigan tanlov va tadbirlarda moddiy va manaviy
             qollab-quvvatlashdan iborat.
           </div>
@@ -63,7 +65,8 @@ const FondHaqida = () => {
               </p>
               <br />
               <Link
-                href=""
+                target="_blank"
+                href="/Fond guvohnoma.pdf"
                 className="bg-[#013ca6] text-white py-2 px-4 rounded-lg"
               >
                 Faylni korish
@@ -99,8 +102,36 @@ const FondHaqida = () => {
           </div>
           <div className="my-2">
             Belgilangan kriteriylar va tanlov jarayonlari zamonaviy xalqaro
-            tajribalar va meyorlar asosida doimiy ravishda qayta korib
-            chiqiladi va yangilanadi.
+            tajribalar va meyorlar asosida doimiy ravishda qayta korib chiqiladi
+            va yangilanadi.
+          </div>
+          <br />
+          <div className="grid grid-cols-2 gap-4">
+            <div className="border-2 p-5 space-y-5 rounded-xl">
+              <div className="flex items-center gap-2">
+                <File />
+                "IMPULS" jamoat fondi vasiylik kengashining yig'ilish
+                bayonnomasi
+              </div>
+              <Link
+                className="bg-[#013ca6] text-white py-2 px-4 rounded-lg flex w-[150px]"
+                href="/JAMOAT FONDI VASIYLIK KЕNGASHINING.pdf"
+              >
+                Faylni ko'rish
+              </Link>
+            </div>
+            <div className="border-2 p-5 space-y-5 rounded-xl">
+              <div className="flex items-center gap-2">
+                <File />
+                Impuls Fondi Ustavi
+              </div>
+              <Link
+                className="bg-[#013ca6] text-white py-2 px-4 rounded-lg flex w-[150px]"
+                href="/Impuls Fondi Ustavi.pdf"
+              >
+                Faylni ko'rish
+              </Link>
+            </div>
           </div>
         </div>
       </div>

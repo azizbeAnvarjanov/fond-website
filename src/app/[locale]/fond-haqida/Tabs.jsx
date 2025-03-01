@@ -9,7 +9,7 @@ import { Textarea } from "@/components/ui/textarea";
 export default function Tabs() {
   const [activeTab, setActiveTab] = useState("home");
   return (
-    <div className="py-6">
+    <div className="py-6 min-h-[30vh]">
       <h1 className="mb-4 font-bold text-2xl">
         Tizimning Amalga Oshirilish Tartibi
       </h1>
@@ -18,7 +18,7 @@ export default function Tabs() {
           <nav className="flex flex-col gap-2">
             <Button
               variant={activeTab === "home" ? "default" : "ghost"}
-              className={`justify-start gap-3 px-4 text-left w-full transition-colors shadow-none ${
+              className={`justify-start gap-3 px-4 text-left w-full transition-colors shadow-none border ${
                 activeTab === "home" ? "secondary" : "ghost"
               }`}
               onClick={() => setActiveTab("home")}
@@ -27,14 +27,14 @@ export default function Tabs() {
             </Button>
             <Button
               variant={activeTab === "about" ? "default" : "ghost"}
-              className="justify-start gap-3 px-4 text-left w-full transition-colors shadow-none"
+              className="justify-start gap-3 border px-4 text-left w-full transition-colors shadow-none"
               onClick={() => setActiveTab("about")}
             >
               2. Tanlov Komisiyalari:
             </Button>
             <Button
               variant={activeTab === "services" ? "default" : "ghost"}
-              className="justify-start gap-3 px-4 text-left w-full transition-colors shadow-none"
+              className="justify-start gap-3 border px-4 text-left w-full transition-colors shadow-none"
               onClick={() => setActiveTab("services")}
             >
               3. Shaffoflik va Hisobot:

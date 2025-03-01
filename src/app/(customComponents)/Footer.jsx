@@ -8,7 +8,7 @@ const Footer = () => {
   const t = useTranslations("Navbar");
 
   return (
-    <div className="bg-[#f2f5fa]">
+    <div className="bg-white">
       <div className="h-[50%] flex items-start py-20 justify-between w-[80%] mx-auto">
         <div>
           <div className="w-[240px] h-[60px] relative">
@@ -35,11 +35,11 @@ const Footer = () => {
           </div>
         </div>
       </div>
-        <Separator className="h-[2px] w-[80%] mx-auto bg-[#013ca6] rounded-full" />
-        <div className="w-[80%] mx-auto flex items-center justify-between py-3">
-          <div>@ 2023 ByteSpace. All rights reserved.</div>
-          <div>Cookies Settings</div>
-        </div>
+      <Separator className="h-[2px] w-[80%] mx-auto bg-[#013ca6] rounded-full" />
+      <div className="w-[80%] mx-auto flex items-center justify-between py-3">
+        <div>@ 2023 ByteSpace. All rights reserved.</div>
+        <div>Cookies Settings</div>
+      </div>
     </div>
   );
 };

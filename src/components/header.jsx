@@ -8,24 +8,10 @@ export default function Header() {
 
   return (
     <header className="border-b shadow-md fixed w-full h-[18vh] z-50">
-      <div className="h-[45%] bg-[#013ca6] text-white px-3 flex items-center justify-between">
-        <div className="flex items-center gap-10">
-          <Link
-            href={`/fond-haqida`}
-            className="lg:flex md:hidden items-center hidden"
-          >
-            Kop beriladigan savollar
-          </Link>
-          <Link
-            href={`/fond-haqida`}
-            className="lg:flex md:hidden items-center hidden"
-          >
-            Jamgarma aloqalari
-          </Link>
-        </div>
+      <div className="h-[45%] bg-[#013ca6] text-white px-3 flex items-center justify-end">
         <div className="flex items-center gap-10">
           <Link href="/">info@impulsmi.uz</Link>
-          <Link href="/">+998 50-510-50-15</Link>
+          <Link href="tel:+998952480003">+998 95-248-00-03</Link>
           <LocalSwitcher />
         </div>
       </div>
@@ -34,12 +20,16 @@ export default function Header() {
           <Image fill src="/flogo2.svg" alt="" />
         </Link>
         <div className="flex items-center gap-6 justify-center h-full">
+          <Link
+            href={`#faq`}
+            className="lg:flex md:hidden items-center hidden"
+          >
+            Kop beriladigan savollar
+          </Link>
           <Link href="/fond-haqida" className="">
             Fond haqida
           </Link>
-          <Link href="/yangiliklar" className="">
-            Yangiliklar
-          </Link>
+
           <Link href="/loyihalar" className="">
             Loyihalar
           </Link>
