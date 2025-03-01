@@ -110,7 +110,7 @@ const FondHaqida = () => {
             <div className="border-2 p-5 space-y-5 rounded-xl">
               <div className="flex items-center gap-2">
                 <File />
-                "IMPULS" jamoat fondi vasiylik kengashining yig'ilish
+                IMPULS jamoat fondi vasiylik kengashining yigilish
                 bayonnomasi
               </div>
               <Link
