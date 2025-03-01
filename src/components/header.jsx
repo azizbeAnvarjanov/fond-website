@@ -20,12 +20,6 @@ export default function Header() {
           <Image fill src="/flogo2.svg" alt="" />
         </Link>
         <div className="flex items-center gap-6 justify-center h-full">
-          <Link
-            href={`#faq`}
-            className="lg:flex md:hidden items-center hidden"
-          >
-            Kop beriladigan savollar
-          </Link>
           <Link href="/fond-haqida" className="">
             Fond haqida
           </Link>

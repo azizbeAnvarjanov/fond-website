@@ -110,10 +110,10 @@ const FondHaqida = () => {
             <div className="border-2 p-5 space-y-5 rounded-xl">
               <div className="flex items-center gap-2">
                 <File />
-                IMPULS jamoat fondi vasiylik kengashining yigilish
-                bayonnomasi
+                IMPULS jamoat fondi vasiylik kengashining yigilish bayonnomasi
               </div>
               <Link
+                target="_blank"
                 className="bg-[#013ca6] text-white py-2 px-4 rounded-lg flex w-[150px]"
                 href="/JAMOAT FONDI VASIYLIK KЕNGASHINING.pdf"
               >
@@ -126,6 +126,7 @@ const FondHaqida = () => {
                 Impuls Fondi Ustavi
               </div>
               <Link
+                target="_blank"
                 className="bg-[#013ca6] text-white py-2 px-4 rounded-lg flex w-[150px]"
                 href="/Impuls Fondi Ustavi.pdf"
               >
