@@ -3,8 +3,7 @@ import Link from "next/link";
 import React from "react";
 
 import Tabs from "@/app/[locale]/fond-haqida/Tabs";
-import { File, FileText } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { File } from "lucide-react";
 
 const FondHaqida = () => {
   return (

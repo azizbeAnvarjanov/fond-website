@@ -4,7 +4,7 @@ import Image from "next/image";
 import { Link } from "@/i18n/routing";
 
 export default function Header() {
-  const t = useTranslations("Navbar");
+  const t = useTranslations("Header");
 
   return (
     <header className="border-b shadow-md fixed w-full h-[18vh] z-50">
@@ -21,11 +21,11 @@ export default function Header() {
         </Link>
         <div className="flex items-center gap-6 justify-center h-full">
           <Link href="/fond-haqida" className="">
-            Fond haqida
+            {t("fond-haqida")}
           </Link>
 
           <Link href="/loyihalar" className="">
-            Loyihalar
+            {t("loyihalar")}
           </Link>
         </div>
         <div>
@@ -33,7 +33,7 @@ export default function Header() {
             href="/donate"
             className="w-[240px] h-[60px] relative rounded-full bg-[#013ca6] text-white py-2 px-4"
           >
-            Xayriya qilmoqchiman
+            {t("xayriya-qilmoqchiman")}
           </Link>
         </div>
       </div>

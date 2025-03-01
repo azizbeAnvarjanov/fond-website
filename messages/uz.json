@@ -1,28 +1,7 @@
 {
-  "Navbar": {
-    "impuls": "Impuls",
-    "tibbiyot-instituti": "Tibbiyot Instituti",
-    "institut": "Institut",
-    "rektor-murojati": "Rektor murojati",
-    "institut-tarixi": "Institut tarixi",
-    "ilmiy-kengash": "Ilmiy kengash",
-    "institut-mamuriyati": "Institut ma'muriyati",
-    "institutga-sayohat": "Institutga sayohat",
-    "institut-xaritasi": "Institut xaritari",
-    "faq": "FAQ",
-    "biz-haqimizda": "Biz haqimizda",
-    "hamkor-universitetlar": "Hamkor universitetlar",
-    "asosiy-qadriyatlar": "Asosiy qadriyatlar",
-    "asosiy-meyoriy-hujjatlar": "Asosiy meyoriy hujjatlar",
-    "xalqaro-faoliyat": "Xalqaro faoliyat",
-    "xalqaro-hamkorlik": "Xalqaro hamkorlik",
-    "xalqaro-talabalar": "Xalqaro talabalar",
-    "almashinuv-dasturi": "Almashinuv dasturi",
-    "grandlar": "Grantlar",
-    "bakalavr-grandi": "Bakalavr granti",
-    "ilmiy-faoliyat": "Ilmiy faoliyat",
-    "ilmiy-jurnal": "IMS Journal",
-    "student-union": "Student union",
-    "aloqa-markazi": "Aloqa markazi"
+  "Header": {
+    "fond-haqida": "Fond haqida",
+    "loyihalar": "Loyihalar",
+    "xayriya-qilmoqchiman": "Xayriya qilmoqchiman"
   }
 }

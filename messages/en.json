@@ -1,29 +1,7 @@
 {
- 
-  "Navbar": {
-    "impuls": "Impuls",
-    "tibbiyot-instituti": "Medical Institute",
-    "institut": "Institute",
-    "rektor-murojati": "Rector appeal",
-    "institut-tarixi": "History of the institute",
-    "ilmiy-kengash": "Scientific council",
-    "institut-mamuriyati": "Administration of the institute",
-    "institutga-sayohat": "A trip to the institute",
-    "institut-xaritasi": "Institute map",
-    "faq": "FAQ",
-    "biz-haqimizda": "About Us",
-    "hamkor-universitetlar": "Partner universities",
-    "asosiy-qadriyatlar": "Core values",
-    "asosiy-meyoriy-hujjatlar": "Basic regulatory documents",
-    "xalqaro-faoliyat": "International activities",
-    "xalqaro-hamkorlik": "International cooperation",
-    "xalqaro-talabalar": "International students",
-    "almashinuv-dasturi": "Exchange program",
-    "grandlar": "Grands",
-    "bakalavr-grandi": "Bachelor's degree",
-    "ilmiy-faoliyat": "Scientific activity",
-    "ilmiy-jurnal": "IMS Journal",
-    "student-union": "Student union",
-    "aloqa-markazi": "Call Center"
+  "Header": {
+    "fond-haqida": "About fund",
+    "loyihalar": "Projects",
+    "xayriya-qilmoqchiman": "I want to donate"
   }
 }
