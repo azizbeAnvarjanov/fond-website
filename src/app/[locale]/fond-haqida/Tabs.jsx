@@ -47,13 +47,13 @@ export default function Tabs() {
               <div>
                 <p className="">
                   Har bir semestr tugaganda, talabalarning 100 ballik baholari,
-                  ijtimoiy faolligi, ilmiy tadqiqot natijalari va qo‘shimcha
+                  ijtimoiy faolligi, ilmiy tadqiqot natijalari va qoshimcha
                   tashabbuslari asosida kompleks reyting tuziladi.
                 </p>
                 <br />
                 <p className="">
-                  Tanlov komissiyalari belgilab qo‘yilgan kriteriylar asosida
-                  har bir kategoriya bo‘yicha talabalarni baholaydi.
+                  Tanlov komissiyalari belgilab qoyilgan kriteriylar asosida
+                  har bir kategoriya boyicha talabalarni baholaydi.
                 </p>
               </div>
             )}
@@ -73,7 +73,7 @@ export default function Tabs() {
                   ilmiy-tadqiqot sohasidagi mutaxassislar.
                 </p>
                 <p className="">
-                  <strong>Ilmiy faollik va qo‘shimcha stipendiya:</strong> ilmiy
+                  <strong>Ilmiy faollik va qoshimcha stipendiya:</strong> ilmiy
                   komissiya va ekspertlar.
                 </p>
               </div>
@@ -82,9 +82,9 @@ export default function Tabs() {
               <div className="space-y-3">
                 <ul className="space-y-2 ">
                   <p>
-                    Fonda sarflangan mablag‘lar, grant taqsimoti va tanlov
+                    Fonda sarflangan mablaglar, grant taqsimoti va tanlov
                     natijalari har semestr oxirida shaffof hisobot shaklida
-                    e’lon qilinadi.
+                    elon qilinadi.
                   </p>
                   <p>
                     Barcha jarayonlar xalqaro standartlarga muvofiq ravishda

@@ -117,7 +117,7 @@ const FondHaqida = () => {
                 className="bg-[#013ca6] text-white py-2 px-4 rounded-lg flex w-[150px]"
                 href="/JAMOAT FONDI VASIYLIK KЕNGASHINING.pdf"
               >
-                Faylni ko'rish
+                Faylni korish
               </Link>
             </div>
             <div className="border-2 p-5 space-y-5 rounded-xl">
@@ -129,7 +129,7 @@ const FondHaqida = () => {
                 className="bg-[#013ca6] text-white py-2 px-4 rounded-lg flex w-[150px]"
                 href="/Impuls Fondi Ustavi.pdf"
               >
-                Faylni ko'rish
+                Faylni korish
               </Link>
             </div>
           </div>
